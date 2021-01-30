@@ -1,7 +1,11 @@
+/* ------IMPORTS------  */
+
 /* fonts  */
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+
+/* -------GENERAL PAGES STYLING---------  */
 
 /* Not sure what root means  */
 :root {
@@ -23,6 +27,7 @@ html {
 body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
+    /* background-color: #000000; */
 }
 
 a {
@@ -36,6 +41,8 @@ h1 {
     line-height: 1.2;
     margin-bottom: 15px;
 }
+
+/* -------LANDING PAGE---------- */
 
 /* Nav bar and buttons  */
 
@@ -155,7 +162,7 @@ h1 {
     z-index: 5;
 }
 
-/* About section  */
+/*------------- ABOUT SECION -------------- */
 #about {
     padding: 40px;
     text-align: center;
@@ -186,10 +193,24 @@ h1 {
 } */
 
 
-/* Social Icons  */
+/* ------------SOCIAL ICONS------------ */
+.social {
+    width: 100%;
+}
 .social a{
     margin: 0 5px;
+    color: #00C2CB;
+    /* padding: 1em; */
 }
 .social a:hover{
     color: #ff00ff;
+}
+
+/* ------------FOOTER SECION---------- */
+
+footer {
+    background-color: #000000;
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
 }
