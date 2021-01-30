@@ -195,7 +195,6 @@ h1 {
 
 /* ------------SOCIAL ICONS------------ */
 .social {
-    background-color: var(--primary-colour);
     width: 100%;
 }
 .social a{
@@ -209,8 +208,9 @@ h1 {
 
 /* ------------FOOTER SECION---------- */
 
-.footer {
-    /* background-color: #000000; */
+footer {
+    background-color: #000000;
     display: flex;
-    /* color: #ffffff;    */
+    color: #ffffff;
+    justify-content: center;
 }
